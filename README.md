@@ -1,6 +1,6 @@
 # TriMEF
 
-Code for **TriMEF: A Trimodal Multi-Expert Fusion Framework for Emotion Recognition**.
+Code for **TriMEF: Pre- and Post-Interaction Expert Fusion with Target-Face Observability for Multimodal Emotion Recognition**.
 
 This release contains only the paper configuration and the files required to train and evaluate it on IEMOCAP and MELD. It does not include datasets, pretrained encoders, extracted visual features, checkpoints, launch scripts, ablations, or analysis code.
 
