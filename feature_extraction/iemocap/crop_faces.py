@@ -3,8 +3,7 @@
 
 The original utterance videos are never modified.  Each output directory contains
 16 square 224x224 JPEGs plus per-utterance quality metadata.  Detection is done
-only on the 16 uniformly sampled frames because DFER-CLIP consumes exactly 16
-frames.
+only on the 16 uniformly sampled frames.
 """
 
 import argparse
