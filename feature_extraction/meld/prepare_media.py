@@ -9,12 +9,6 @@ interface remains identical to the frozen IEMOCAP pipeline:
 * square 224x224 crops with a 25% face-box margin;
 * an MTCNN-derived 16-frame validity mask;
 * quality = valid_face_frame_ratio * mean_MTCNN_confidence.
-
-There is no largest-face fallback and no sample-specific correction.  Missing
-timestamps, missing public active-speaker boxes, explicitly non-unique speaker
-labels, or zero MTCNN-valid frames make video unavailable.  Audio is extracted
-from the public realigned clip when timestamps are available; otherwise the
-already locked manifest audio is retained.
 """
 
 from __future__ import annotations
