@@ -2,8 +2,6 @@
 
 Code for **TriMEF: Pre- and Post-Interaction Expert Fusion with Target-Face Observability for Multimodal Emotion Recognition**.
 
-This release contains the paper configuration, training and evaluation code, and the visual preprocessing pipeline used for IEMOCAP and MELD. It does not include datasets, pretrained encoders, extracted features, checkpoints, ablations, or analysis code.
-
 ## Structure
 
 ```text
