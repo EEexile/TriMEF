@@ -2,7 +2,6 @@
 
 This directory contains the visual pipeline used by TriMEF for IEMOCAP and MELD. It samples 16 target-face frames, records frame validity and target-face observability, and exports frozen DFER-CLIP temporal features.
 
-Datasets, generated crops, extracted features, DFER-CLIP source code, and model checkpoints are not included.
 
 ## Pipeline
 
