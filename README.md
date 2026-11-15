@@ -67,7 +67,7 @@ python train_iemocap.py \
   --run-name trimef_iemocap_fold1
 ```
 
-Repeat with `--fold 2` through `--fold 5`. The paper protocol uses seed 42, batch size 16, 100 epochs, no early stopping, and held-out Session WA for checkpoint selection.
+Repeat with `--fold 2` through `--fold 5`. The paper protocol uses seed 42, batch size 16, 100 epochs, and no early stopping.
 
 ## MELD
 
